@@ -1,0 +1,77 @@
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: #3f51b5e0 !important;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+
+p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.col-md-6 {
+    box-shadow: -2px 3px 20px 6px #00000033;
+    padding: 20px 18px 20px 18px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.row {
+    flex-wrap: nowrap;
+    gap: 35px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.alert {
+    animation: fadeIn 0.2s;
+}
+
+
+@media screen and (max-width:900px) {
+    .row {
+        flex-wrap: wrap-reverse;
+    }
+
+    .mt-5 {
+        padding: 36px;
+    }
+}
